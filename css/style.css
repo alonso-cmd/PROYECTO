@@ -2,15 +2,15 @@ body{
     background-color: white;
 }
 .contenedor{
-    width: 40%;
+    width: 60%;
     height: 100%;
     margin: 0 auto;
     text-align: center;
 }
 .contenedor2{
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     text-align: center;
     color: white;
     display: grid;
@@ -19,17 +19,16 @@ body{
     grid-template-rows: repeat(1,auto);
 }
 article{
-    font-size: 14px;
+    font-size: 18px;
     background-color:dodgerblue;
     border: medium solid white;
     text-align: center;
-    font-size: 10px;
     font-family: "playfair";
 }
 .contenedor3{
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     text-align: center;
     color: white;
     display: grid;
@@ -38,8 +37,8 @@ article{
 }
 .contenedor4{
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     color: white;
     text-align: center;
     display: grid;
@@ -57,25 +56,26 @@ nav{
 }
 .contenedor5{
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     text-align: center;
     display: grid;
 }
 .contenedor6{
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     text-align: center;
     color: white;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: 100%;
+    font-size: 22px;
 }
 .contenedor7{
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     text-align: center;
     color: black;
     display: grid;
@@ -93,10 +93,11 @@ img{
 }
 .contenedor8{
     margin: 0 auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     text-align: center;
     display: grid;
+    font-size: 18px;
 }
 footer{
     font-family: "playfairVariable";
