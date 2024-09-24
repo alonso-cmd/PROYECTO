@@ -1,0 +1,129 @@
+body{
+    background-color: white;
+}
+.contenedor{
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contenedor2{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color: white;
+    display: grid;
+
+    grid-template-columns: 65% auto;
+    grid-template-rows: repeat(1,auto);
+}
+article{
+    font-size: 14px;
+    background-color:dodgerblue;
+    border: medium solid white;
+    text-align: center;
+    font-size: 10px;
+    font-family: "playfair";
+}
+.contenedor3{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+}
+.contenedor4{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+}
+h2{
+    background-color: transparent;
+    color: black;
+    font-family: "playfairVariable";
+}
+nav{
+    padding: 10px;
+    font-family: "relaway";
+}
+.contenedor5{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    display: grid;
+}
+.contenedor6{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 100%;
+}
+.contenedor7{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 100%;
+}
+.menu{
+    align-items:start;
+    display: flex;
+    list-style-type: none;
+    display: block;
+}
+img{
+    font-family: "playfair";
+}
+.contenedor8{
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    display: grid;
+}
+footer{
+    font-family: "playfairVariable";
+}
+
+@font-face{
+    font-family: "playfair";
+    src: url("../css/PlayfairItalic.ttf");
+}
+.fuente-playfair{
+    font-family: "playfair";
+}
+@font-face{
+    font-family: "playfairVariable";
+    src: url("../css/PlayfairVariable.ttf");
+}
+.fuente-playfairVariable{
+    font-family: "playfairVariable";
+}
+@font-face{
+    font-family: "relaway";
+    src: url("../css/Raleway.ttf");
+}
+.fuente-relaway{
+    font-family: "relaway";
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
